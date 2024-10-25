@@ -35,10 +35,32 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 header a {
     text-decoration: none;
     color: inherit;
 }
+#reason {
+    width: 90%;
+    margin: 20px auto;
+    
+}
+#reason h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits p {
+    padding: 0 20px;
+}
+
 
 #menu {
     font-size: 110%;
